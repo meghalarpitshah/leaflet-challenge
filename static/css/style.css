@@ -1,0 +1,45 @@
+/* styles.css */
+
+/* Style the map container */
+#map {
+  height: 500px;
+  width: 100%;
+}
+
+/* Style the popup content */
+.leaflet-popup-content {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the legend */
+.info.legend {
+  background-color: #ffffff; /* Specify your desired background color */
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  font-family: Arial, sans-serif; /* You can change the font if needed */
+}
+
+/* Style legend labels */
+.info.legend i {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  vertical-align: middle;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+
+/* Customize legend colors and labels as needed */
+.info.legend i:nth-child(1) {
+  background: rgba(255, 0, 0, 0.2); /* Example legend color */
+}
+
+/* Add more legend styles here */
